@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(3, 50px);
+    justify-content: center;
+}
+
+.grid-item {
+    border: 2px solid darkgreen ;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-family: Audiowide;
+    color: #ff8274;
+    text-align: center;
+}
+
+.grid-item:nth-child(even) {
+    background-color: #aee0ae;
+  }
+
+  .grid-item:nth-child(odd) {
+    background-color: #478d47;
+  }
+
+body {
+    background-color: honeydew;
+}
